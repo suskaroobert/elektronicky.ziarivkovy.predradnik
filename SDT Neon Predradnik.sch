@@ -3697,6 +3697,85 @@ Wickmann</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="wirepad">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="3,81/1,3">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="1.905" y1="-1.27" x2="1.905" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.905" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.905" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.905" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.3208" diameter="3.81" shape="octagon"/>
+<text x="-1.905" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="1.2" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+<package name="2,54/1,1">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="0.762" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-0.762" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.016" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.1176" diameter="2.54" shape="octagon"/>
+<text x="-1.27" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="1" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PAD">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="3,81/1,3" prefix="PAD" uservalue="yes">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3,81/1,3">
+<connects>
+<connect gate="1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2,54/1,1" prefix="PAD" uservalue="yes">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2,54/1,1">
+<connects>
+<connect gate="1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3751,6 +3830,17 @@ Wickmann</description>
 <part name="D4" library="#PaJa_16" deviceset="1N4007" device="_10"/>
 <part name="D5" library="#PaJa_16" deviceset="1N4007" device="_10"/>
 <part name="F1" library="fuse" deviceset="FUSE" device="TE5" value="2A"/>
+<part name="PAD9" library="wirepad" deviceset="3,81/1,3" device=""/>
+<part name="PAD10" library="wirepad" deviceset="3,81/1,3" device=""/>
+<part name="PAD14" library="wirepad" deviceset="3,81/1,3" device=""/>
+<part name="PAD15" library="wirepad" deviceset="3,81/1,3" device=""/>
+<part name="PAD16" library="wirepad" deviceset="3,81/1,3" device=""/>
+<part name="PAD17" library="wirepad" deviceset="3,81/1,3" device=""/>
+<part name="PAD18" library="wirepad" deviceset="2,54/1,1" device=""/>
+<part name="PAD19" library="wirepad" deviceset="2,54/1,1" device=""/>
+<part name="PAD20" library="wirepad" deviceset="2,54/1,1" device=""/>
+<part name="PAD21" library="wirepad" deviceset="2,54/1,1" device=""/>
+<part name="PAD22" library="wirepad" deviceset="2,54/1,1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3805,6 +3895,17 @@ Wickmann</description>
 <instance part="D4" gate="D" x="63.5" y="25.4" rot="R90"/>
 <instance part="D5" gate="D" x="73.66" y="25.4" rot="R90"/>
 <instance part="F1" gate="G$1" x="17.78" y="48.26"/>
+<instance part="PAD9" gate="1" x="134.62" y="2.54" rot="R90"/>
+<instance part="PAD10" gate="1" x="139.7" y="2.54" rot="R90"/>
+<instance part="PAD14" gate="1" x="144.78" y="2.54" rot="R90"/>
+<instance part="PAD15" gate="1" x="149.86" y="2.54" rot="R90"/>
+<instance part="PAD16" gate="1" x="154.94" y="2.54" rot="R90"/>
+<instance part="PAD17" gate="1" x="160.02" y="2.54" rot="R90"/>
+<instance part="PAD18" gate="1" x="177.8" y="5.08"/>
+<instance part="PAD19" gate="1" x="182.88" y="5.08"/>
+<instance part="PAD20" gate="1" x="190.5" y="5.08"/>
+<instance part="PAD21" gate="1" x="177.8" y="2.54"/>
+<instance part="PAD22" gate="1" x="185.42" y="2.54"/>
 </instances>
 <busses>
 </busses>
