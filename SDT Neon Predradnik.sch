@@ -3841,6 +3841,10 @@ Wickmann</description>
 <part name="PAD20" library="wirepad" deviceset="2,54/1,1" device=""/>
 <part name="PAD21" library="wirepad" deviceset="2,54/1,1" device=""/>
 <part name="PAD22" library="wirepad" deviceset="2,54/1,1" device=""/>
+<part name="PAD23" library="wirepad" deviceset="2,54/1,1" device=""/>
+<part name="PAD24" library="wirepad" deviceset="2,54/1,1" device=""/>
+<part name="PAD25" library="wirepad" deviceset="2,54/1,1" device=""/>
+<part name="PAD26" library="wirepad" deviceset="2,54/1,1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3906,6 +3910,10 @@ Wickmann</description>
 <instance part="PAD20" gate="1" x="190.5" y="5.08"/>
 <instance part="PAD21" gate="1" x="177.8" y="2.54"/>
 <instance part="PAD22" gate="1" x="185.42" y="2.54"/>
+<instance part="PAD23" gate="1" x="104.14" y="5.08"/>
+<instance part="PAD24" gate="1" x="99.06" y="5.08"/>
+<instance part="PAD25" gate="1" x="99.06" y="2.54"/>
+<instance part="PAD26" gate="1" x="104.14" y="2.54"/>
 </instances>
 <busses>
 </busses>
@@ -4103,6 +4111,9 @@ Wickmann</description>
 <wire x1="208.28" y1="27.94" x2="208.28" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="NEO_1B" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="25.4" x2="203.2" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="PAD11" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="43.18" x2="208.28" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="43.18" x2="208.28" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -4149,6 +4160,13 @@ Wickmann</description>
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
 <pinref part="IN_1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="PAD12" gate="G$1" pin="1"/>
+<pinref part="PAD13" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="40.64" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
