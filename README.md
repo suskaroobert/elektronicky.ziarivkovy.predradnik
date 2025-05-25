@@ -2,19 +2,19 @@
 
 ---
 
-Potom èo mi odišla do veènıch lovísk moja neónka, som sa rozhodol, e ju zreparujem. Inšpiráciu som najprv h¾adal na konferencii [Hw-list][hwlist] kde ma jeden príspevok naviedol na slovo predradník. Síce som chví¾ku uvaoval o tom, e iarivku nahradím LED diódami, ale toto riešenie som ihneï zavrhol, keï som objavil na stránke [https://danyk.cz/][danyk]
+Potom Äo mi odiÅ¡la do veÄnÃ½ch lovÃ­sk moja neÃ³nka, som sa rozhodol, Å¾e ju zreparujem. InÅ¡pirÃ¡ciu som najprv hÄ¾adal na konferencii [Hw-list][hwlist] kde ma jeden prÃ­spevok naviedol na slovo predradnÃ­k. SÃ­ce som chvÃ­Ä¾ku uvaÅ¾oval o tom, Å¾e Å¾iarivku nahradÃ­m LED diÃ³dami, ale toto rieÅ¡enie som ihneÄ zavrhol, keÄ som objavil na strÃ¡nke [https://danyk.cz/][danyk]
 
-[Elektronickı záøivkovı pøedøadník 8 - 144W][danykpredradnikcz]
+[ElektronickÃ½ zÃ¡Å™ivkovÃ½ pÅ™edÅ™adnÃ­k 8 - 144W][danykpredradnikcz]
 
-Jeho stavba skonèila úspešne, za èo som autorovi ve¾mi vïaènı.
+Jeho stavba skonÄila ÃºspeÅ¡ne, za Äo som autorovi veÄ¾mi vÄaÄnÃ½.
 
-Moje riešenie spoèíva v tom, e som schému prekreslil do programu EAGLE a navrhol na DPS, ktorı vojde do otvoru pre pôvodnú elektroniku lampy.
+Moje rieÅ¡enie spoÄÃ­va v tom, Å¾e som schÃ©mu prekreslil do programu EAGLE a navrhol na DPS, ktorÃ½ vojde do otvoru pre pÃ´vodnÃº elektroniku lampy.
 
-## Poznámky ku stavbe
+## PoznÃ¡mky ku stavbe
 
-Rezistor R2 je poèas prevádzky ve¾mi horúci. Vytiahol som ho preto mimo priestor lampy, do malej krabièky z hliníkového plechu. Z vrchu a od spodu sú v krabièke navàtané otvory pre lepšie chladenie rezistoru.
+Rezistor R2 je poÄas prevÃ¡dzky veÄ¾mi horÃºci. Vytiahol som ho preto mimo priestor lampy, do malej krabiÄky z hlinÃ­kovÃ©ho plechu. Z vrchu a od spodu sÃº v krabiÄke navÅ•tanÃ© otvory pre lepÅ¡ie chladenie rezistoru.
 
-Ïalej, pôvodnı prívodnı kábel bol len dvojilovı, tak som ho vymenil za trojilovı a kryt svietidla a krabièku s rezistorom som uzemnil.
+Äalej, pÃ´vodnÃ½ prÃ­vodnÃ½ kÃ¡bel bol len dvojÅ¾ilovÃ½, tak som ho vymenil za trojÅ¾ilovÃ½ a kryt svietidla a krabiÄku s rezistorom som uzemnil.
 
 ## ENG version
 
